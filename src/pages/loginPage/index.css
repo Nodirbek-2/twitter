@@ -1,0 +1,98 @@
+.login__page {
+
+
+
+    margin-top: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.page {
+
+    max-width: 450px;
+    width: 100%;
+
+}
+
+.info {
+    text-align: left;
+
+}
+
+.info h1 {
+    color: rgba(0, 0, 0, 1);
+    font-family: "Roboto";
+    font-style: Black;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 49px;
+    margin-top: 36px;
+    margin-left: 10px;
+
+}
+
+.form {
+    max-width: 450px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+
+
+}
+
+.form input {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    padding: 20px 0px 20px 20px;
+    width: 100%;
+    font-size: 18px;
+    outline: none;
+}
+
+.form input ::placeholder {
+    color: rgba(0, 0, 0, 0.6);
+    font-style: Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+
+}
+
+.login__btn {
+    border-radius: 76px;
+    background: rgba(29, 161, 242, 1);
+    border: none;
+    padding: 18px;
+    color: rgba(255, 255, 255, 1);
+
+    font-family: Segoe UI;
+    font-style: Bold;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.login__btn:hover {
+    background-color: blue;
+}
+
+.foget__pass {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+
+}
+
+.foget__pass p {
+    color: rgba(29, 161, 242, 1);
+    font-style: Regular;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 22px;
+
+}
